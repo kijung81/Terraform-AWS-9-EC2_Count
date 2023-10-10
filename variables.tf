@@ -1,6 +1,6 @@
 variable "instance_name" {
   type = list(string)
-  default = ["cnt_web01", "cnt_web02", "cnt_web03", "cnt_web04", "cnt_web5"]
+  default = ["cnt_web01", "cnt_web02"]
 }
 variable "prefix" {
   default = "Terraform-PoC-9-ec2Count"
